@@ -42,4 +42,48 @@ header {
     border: 1px solid red;
     width: 101.9rem;
     height: 100%;
+    font-size: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    border: 1px solid red;
+    width: 80.7rem;
+    height: 5.2rem;
+    display: flex;
+    justify-content: end;
+    gap: 1.2rem;
+}
+
+.menu li {
+    border: 1px solid red;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    border: 1px solid green;
+    text-decoration: none;
+}
+
+.menu ul li a {
+    border: 1px solid green;
+    text-decoration: none;
+    padding: 1rem 1.4rem 1rem 1.4rem;
+}
+
+.download {
+    border: 1px solid red;
+    width: 18.8rem;
+    height: 5.2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD6F00;
+    color: #FFFFFF;
 }
